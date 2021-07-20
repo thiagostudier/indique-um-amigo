@@ -90,13 +90,13 @@ Detalhes da API
 /indications (GET)
 
 - CRIAR NOVA INDICAÇÃO
-/indications (POST)
+/indications (POST) { name, cpf, phone, email }
 
 - PEGAR INDICAÇÃO
 /indications/{id} (GET)
 
 - ATUALIAR INDICAÇÃO
-/indications/{id} (PATCH)
+/indications/{id} (PATCH) { name, cpf, phone, email }
 
 - ATUALIAR STATUS DA INDICAÇÃO
 /indications-status/{id} (PATCH)
