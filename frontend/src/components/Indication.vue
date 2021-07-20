@@ -76,7 +76,7 @@ export default {
 
 .indication{
     margin-bottom: 15px;
-    border-left: 10px solid #a7a7a7 !important;
+    border-left: 10px solid #d25a5a !important;
     padding: 5px 20px;
     border: 1px solid #f3f3f3;
     position: relative;
@@ -125,7 +125,7 @@ p{margin-bottom: 0px;}
 }
 
 .status-meeting-button {
-    background: #a7a7a7;
+    background: #d25a5a;
     font-size: 14px;
     font-family: rubik,Sans-serif;
     font-weight: 500;

@@ -22,18 +22,18 @@ export default {
 
     footer{
         margin-top: 50px;
-        background: #a7a7a7;
+        background: #d25a5a;
         padding: 15px 0px;
     }
 
     footer .row{
         display: flex;
-        align-items: baseline;
+        align-items: center;
         justify-content: space-between;
     }
 
     footer .logo-footer{
-        height: 20px;
+        height: 35px;
     }
 
     footer .text-footer{

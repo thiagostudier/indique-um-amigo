@@ -25,12 +25,12 @@ export default {
 
   header{
     margin-bottom: 25px;
-    padding: 15px 0px;
-    background: #a7a7a7;
+    padding: 10px 0px;
+    background: #d25a5a;
   }
 
   img{
-    height: 18px;
+    height: 60px;
   }
 
   .buttons-header{

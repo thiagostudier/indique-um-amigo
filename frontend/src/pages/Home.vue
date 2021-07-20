@@ -9,6 +9,7 @@
             <div v-for="indication in indications.data" :key="indication.id">
                 <indication :indication="indication"></indication>
             </div>
+            <span class="label-no-indications" v-if="indications.data.length == 0">Não há indicações para apresentar</span>
         </div>
     </site-template>
 </template>
@@ -62,4 +63,10 @@ export default {
 </script>
 
 <style scoped>
+
+    .label-no-indications{
+        font-family: rubik,Sans-serif;
+        font-size: 14px;
+    }
+
 </style>
