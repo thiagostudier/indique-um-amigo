@@ -55,6 +55,10 @@ $ npm i vue-notification //BIBLIOTECA DE NOTIFICAÇÕES JS
 $ composer global require laravel/installer //INSTALAR LARAVEL
 $ laravel new backend //CRIAR PROJETO LARAVEL
 
+//CRIE O ARQUIVO ".env" USANDO O ".env.example" COMO EXEMPLO
+//ADICIONE OS DADOS DE CONEXÃO DO BANCO DE DADOS E A CHAVE DA APLICAÇÃO LARAVEL
+$ php artisan key:generate
+
 //CRIAR MODELS/CONTROLLERS/MIGRATES
 $ php artisan make:model Indication -c -m
 $ php artisan make:model Status -m
