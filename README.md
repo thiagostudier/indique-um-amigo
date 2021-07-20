@@ -81,3 +81,27 @@ $ php artisan make:seeder StatusSeeder
 $ php artisan db:seed
 
 ```
+### API
+
+Detalhes da API
+
+```
+- LISTAR INDICAÇÕES
+/indications (GET)
+
+- CRIAR NOVA INDICAÇÃO
+/indications (POST)
+
+- PEGAR INDICAÇÃO
+/indications/{id} (GET)
+
+- ATUALIAR INDICAÇÃO
+/indications/{id} (PATCH)
+
+- ATUALIAR STATUS DA INDICAÇÃO
+/indications-status/{id} (PATCH)
+
+- REMOVER INDICAÇÃO
+/indications/{id} (DELETE)
+```
+
