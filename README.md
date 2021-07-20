@@ -20,13 +20,13 @@ O projeto inclui:
 - `cd backend`
 - `composer install`
 
-> _Obs: Criar arquivo ".env" e configurar variáveis de ambiente (DATABASE e MAIL)
+> _Obs: Criar arquivo ".env" e configurar variáveis de ambiente (DATABASE, KEY)
 
 - `php artisan key:generate` - criar chave da aplicação
 
-- `php artisan migrate`
-- `php artisan db:seed`
-- `php artisan serve`
+- `php artisan migrate` - criar tabelas do banco de dados
+- `php artisan db:seed` - cadastradar os dados pré-configurados (status: iniciada, em processo, finalizada)
+- `php artisan serve` - rodar servidor
 
 O Serviço rodará na porta 8000: localhost:8000/
 
